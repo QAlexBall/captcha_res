@@ -7,13 +7,13 @@ import cv2
 import numpy as np
 
 with open('loggings.txt', 'w') as f:
-    f.truncate()bvnvbn
+    f.truncate()
 with open('mappings_test.txt', 'w') as f:
     f.truncate()
 for x in os.listdir('./train/'):
     if x == 'mappings_test.txt':
         break
-    print(str(x), end=',')
+    print(str(x))#, end=',')
     maps = open("mappings_test.txt", "a")
     string1 = str(x) + ','
     maps.write(string1)
@@ -46,7 +46,7 @@ for x in os.listdir('./train/'):
     
         # find the max_num's index
         max_sift = num_sift.index(max(num_sift))
-        print(max_sift, end='')
+        print(max_sift)#end='')
         string2 = str(max_sift)
         maps.write(string2)
         f = open("loggings.txt", 'a')
