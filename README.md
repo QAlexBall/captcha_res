@@ -11,8 +11,6 @@ cd classC/captcha
 python main.py
 # enter path
 ```
-###### result
-![Screenshot from 2018-06-30 20-54-47.png](./image/Screenshot from 2018-06-30 20-54-47.png)
 
 ***
 #### 类别E
